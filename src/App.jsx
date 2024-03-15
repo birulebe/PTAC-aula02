@@ -1,6 +1,6 @@
 import Header from "./components/Header";
-import Footer from "./components/footer";
-
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 import "./global.css";
 
 export default function app(){
@@ -9,6 +9,7 @@ return(
   <div>
     <Header/>
     <Footer/>
+    <Main/>
   </div>
 )
 }
