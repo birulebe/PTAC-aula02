@@ -3,13 +3,16 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import "./global.css";
 
-export default function app(){
+export default function App(){
 
 return(
+
   <div>
+
     <Header/>
     <Footer/>
     <Main/>
+
   </div>
-)
+  );
 }

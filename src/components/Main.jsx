@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Main() {
 
     const [nome, setNome] = useState("");
-    const [telefone, setTelefone] = useState(0);
+    const [number, setNumber] = useState(0);
 
     return (
 
@@ -19,9 +19,9 @@ export default function Main() {
                 <input
                     type="number"
                     name="" id=""
-                    onChange={(event) => setTelefone(event.target.value)}
+                    onChange={(event) => setNumber(event.target.value)}
                 />
-                {telefone}
+                {number}
                 <button>cadastrar</button>
             </form>
         </main>

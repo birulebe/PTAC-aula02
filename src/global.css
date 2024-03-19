@@ -6,14 +6,10 @@ header{
 footer{
     height:100;
     background-color: blueviolet;
-    border-bottom: black;
+    border-bottom: white;
 }
 .header{
-    color: white;
-}
-body{
-    margin:0;
-    padding:0;
+    color: black;
 }
 input{
     background-color: aquamarine;
