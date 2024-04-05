@@ -1,9 +1,9 @@
 export default function Header(){
     
     return (
-         <Header>
+         <header>
            <h1 className="header">Cabeçalho</h1>
 
-         </Header>
+         </header>
     );
 }
